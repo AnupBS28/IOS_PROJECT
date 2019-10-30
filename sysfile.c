@@ -442,3 +442,19 @@ sys_pipe(void)
   fd[1] = fd1;
   return 0;
 }
+
+int
+sys_readit(void)
+{
+	//int q;
+	/*if(argint(0,&q)<0)
+	{
+		return -1;	
+	}*/
+		
+	 
+	
+	
+	return 0;
+
+}

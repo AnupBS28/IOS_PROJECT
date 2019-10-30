@@ -155,3 +155,16 @@ filewrite(struct file *f, char *addr, int n)
   panic("filewrite");
 }
 
+
+int
+readit(int q)
+{
+	//char buff[256];
+	//struct file* f=0;
+	
+	//fileread(f,buff,25);
+
+	
+  	//cprintf("%s",buff);
+	return 0;
+}

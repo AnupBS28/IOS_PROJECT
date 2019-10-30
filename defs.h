@@ -33,6 +33,7 @@ void            fileinit(void);
 int             fileread(struct file*, char*, int n);
 int             filestat(struct file*, struct stat*);
 int             filewrite(struct file*, char*, int n);
+int		readit(int);
 
 // fs.c
 void            readsb(int dev, struct superblock *sb);
@@ -120,6 +121,7 @@ void            userinit(void);
 int             wait(void);
 void            wakeup(void*);
 void            yield(void);
+ 		
 
 // swtch.S
 void            swtch(struct context**, struct context*);

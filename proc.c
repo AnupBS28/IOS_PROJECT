@@ -7,6 +7,7 @@
 #include "proc.h"
 #include "spinlock.h"
 
+//int read(int, void*, int);
 struct {
   struct spinlock lock;
   struct proc proc[NPROC];
@@ -532,3 +533,5 @@ procdump(void)
     cprintf("\n");
   }
 }
+
+
