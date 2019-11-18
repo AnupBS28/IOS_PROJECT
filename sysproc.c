@@ -90,4 +90,9 @@ sys_uptime(void)
   return xticks;
 }
 
+int sys_myfree(void)
+{
+	
+	return myfree();
 
+}
